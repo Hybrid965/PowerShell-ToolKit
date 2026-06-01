@@ -82,6 +82,13 @@ Install-Module MicrosoftTeams -Force
 
 This is a full end-to-end onboarding script. It collects user details interactively, optionally copies attributes and group memberships from an existing user (excluding licensing groups), generates a secure random password, creates the AD account, waits for replication, then connects to the on-prem Exchange server to enable the mailbox and set the primary SMTP address.
 
+If you want to edit which groups it excludes or to remove the exclusion edit this code block 
+```
+# Copy group memberships, excluding any group whose name starts with 'Licensing'
+            $GroupsToAdd = $TemplateUser.MemberOf | Where-Object {
+                ($_ -split ',')[0] -replace '^CN=','' -notmatch '^Licensing'
+```
+
 **Requirements:** `ActiveDirectory` module, Exchange admin credentials, domain-joined machine.
 
 **Modules required:**
