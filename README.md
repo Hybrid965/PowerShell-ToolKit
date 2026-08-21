@@ -96,7 +96,7 @@ Scripts for creating teams and managing membership in bulk.
 
 Tools for converting and preparing video files.
 
-📄 **[Full documentation →](./scripts/media/README.md)**
+📄 **[Full documentation →](./scripts/ffmpeg/README.md)**
 
 | Tool | Description |
 |---|---|
