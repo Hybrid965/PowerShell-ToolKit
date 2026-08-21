@@ -228,4 +228,3 @@ Full setup instructions, `settings.ini` reference, and troubleshooting are in th
 
 ---
 
-⬅ [Back to main README](../../README.md)
