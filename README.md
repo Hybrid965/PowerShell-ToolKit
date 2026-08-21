@@ -75,7 +75,7 @@ Scripts and tools for AD user provisioning, group and mailbox management, and re
 | `Get-User.ps1` | Queries AD users by department |
 | `Get-UserGroups.ps1` | Looks up a user and lists their group memberships |
 | `Get-DistributionLists.ps1` | Exports all Distribution Lists to CSV |
-| [AD Account Creator](https://github.com/Hybrid965/ad-account-creator) | Standalone Python GUI + PowerShell backend for reusable, config-driven AD account creation |
+| `AD Account Creator` | Standalone Python GUI + PowerShell backend for reusable, config-driven AD account creation |
 
 ---
 
