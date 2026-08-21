@@ -224,7 +224,7 @@ A standalone desktop tool for creating Active Directory user accounts — pairs 
 - RSAT / Active Directory PowerShell module
 - Permissions to create users (and optionally set manager, copy groups, enable mailbox) in the target OU
 
-Full setup instructions, `settings.ini` reference, and troubleshooting are in the [project's README](./ad%20user%20creator/README.md).
+Full setup instructions, `settings.ini` reference, and troubleshooting are in the [project's README](/scripts/ad/ad%20user%20creator/README.md).
 
 ---
 
