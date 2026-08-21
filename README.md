@@ -129,8 +129,6 @@ PowerShell-Toolkit/
 └── README.md
 ```
 
-> Note: **AD Account Creator** is a separate standalone project ([Hybrid965/ad-account-creator](https://github.com/Hybrid965/ad-account-creator)) rather than a script in this repo, since it's a Python GUI paired with its own PowerShell backend. It's listed in the Active Directory section for discoverability, with a link out to its own repo and README.
-
 ---
 
 ## 🔒 Notes
